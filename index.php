@@ -1,40 +1,48 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Cadastro cliente</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Sesion</title>
 </head>
 <body>
+	<?php 
+	//<input type="text" name="nomox" placeholder="Nome complet"><br><br>
+	 ?>
+	<h1>Login area</h1>
+	<form method="post" action="processologin.php">
+		
+		<fieldset><legend>Login</legend>
+		
+		<input type="text" name="user" placeholder="Seu nome usuario" required autofocus><br><br>
+		<input type="password" name="pasvort" placeholder="Sua senha" required ><br><br>
 
-	<div class="container">
-		<nav>
-			<ul class="menu">
-				<a href="index.php"><li>cadastro</li></a>
-				<a href="consulta.php"><li>consultas</li></a>
-			</ul>
-		</nav>
-		<section>
-			<h1>Cadastro de Clientes</h1><hr><br><br>
-			<form method="post" action="process.php">
-				<input type="submit" value="salvar" class="btn">
-				<input type="reset" value="limpar" class="btn">
-				<br><br>
 
-				Nombre <br>
-				<input type="text" name="nome" class="campo" maxlength="40" required autofocus><br>
+		<input type="submit" value="Entar">
 
-				Edad <br>
-				<input type="text" name="idad" class="campo" maxlength="3" required ><br>
+		<br><br>
+		 <a href="cadastro.php">Ou se cadastre</a>
 
-				Email <br>
-				<input type="email" name="email" class="campo" maxlength="80" required ><br>
+		</fieldset>
+		
+	</form>
 
-				Libro add <br>
-				<input type="text" name="liad" class="campo" maxlength="1" required ><br>
+	<?php 
+		/*
+			Pagina principal, colocar dados que serao
+			levados para a pagina processologin.php
+			na qual as informacoes colocads
+			vao para as variaveis em php
 
-			</form>
-		</section>
-	</div>
+		*/
+	 ?>
+
 </body>
 </html>
+
+
+<?php 
+
+
+
+
+ ?>
