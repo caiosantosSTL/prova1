@@ -4,10 +4,13 @@ Nombre proyecto: Biblioteca
 Descripcion: Venta de libros
 Modulos
   login
-  alta entdad
+  alta entidad
  
 Sublime text
 Mysql 
 wamp
+php
+HTML
+Javascript
  
 Ejemplos
