@@ -24,7 +24,6 @@ while($iRegistri=mysqli_fetch_array($consul)) {
 }
 
 */
-
  ?>
 
 

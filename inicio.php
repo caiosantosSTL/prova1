@@ -19,6 +19,8 @@ if(!$_SESSION['usuario']){
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel="stylesheet" type="text/css" href="process2.php">
 </head>
+	
+
 <body>	
 
 	<div class="container">
@@ -28,6 +30,8 @@ if(!$_SESSION['usuario']){
 				<a href="listax.php"><li>consultas</li></a>
 				<a href="douloud.php"><li>Dowload</li></a>
 				<a href="logout.php"><li>Sair Sesion</li></a>
+				<a href="grafik.php"><li>Ver Grafik</li></a>
+				<a href="genpdf.php"><li>Ver Pdf</li></a>
 			</ul>
 		</nav>
 		<section>
